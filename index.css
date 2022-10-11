@@ -1,0 +1,22 @@
+*:not(h1) {
+    transform-origin: 0% 0%;
+}
+
+h1 {
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+}
+
+div h1:nth-child(even) {
+    background-color: crimson;
+}
+div h1:nth-child(odd) {
+    background-color: cornflowerblue;
+}
