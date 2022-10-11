@@ -5,4 +5,4 @@ An AnimeJs Effect
 
 --------------------------------
 
-*DO NOT FORK THIS IN ANY WAY*
+# ***DO NOT FORK THIS IN ANY WAY***
